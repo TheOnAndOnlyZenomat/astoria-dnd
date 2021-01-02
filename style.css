@@ -1,0 +1,77 @@
+:root {
+    --bg-col: #1c1e26;
+    --fg-col: #ffffff;
+    --accent: #e93c58;
+    --sec-accent: #e3e6ee
+}
+
+body, html {
+    margin: 0;
+    padding: 20px;
+    background-color: var(--bg-col);
+    color: var(--fg-col);
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+a, a:visited {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--sec-accent);
+}
+
+h1 {
+    color: var(--accent)
+}
+
+h2 {
+    color: var(--accent);
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.heading {
+    text-align: left;
+}
+
+.bar {
+    text-align: left;
+}
+
+.about {
+    text-align: left;
+}
+
+.blog {
+    text-align: left;
+}
+
+p.meta {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--sec-accent);
+    margin-top: -1em;
+}
+
+blockquote {
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+} 
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin: 0px auto;
+  width: 100%;
+  text-align: center;
+}
